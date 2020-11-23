@@ -1,0 +1,53 @@
+ol{
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+li{
+    padding:3px;
+    padding-left: 34px;
+    margin-bottom: 5px;
+    list-style-position: inside; /* za stavljanje numeracije unutar kutije */ 
+}
+
+li:nth-child(6){
+    margin-bottom:0px;
+}
+
+.styleDe{
+    background-image: url(images/de.png);
+    background-color:rgba(255, 0, 0, 0.25);
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: 2.5% center;                   /* centriranje zastave */ 
+}
+
+.styleEn{
+    background-image: url(images/en-GB.png);
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 255, 0, 0.75);
+    background-position: 2.5% center;
+
+
+}
+
+.styleEs {
+    background-image: url(images/es.png);
+    background-color: rgba(0, 0, 255, 0.50);
+    margin: 5px;
+    background-repeat: no-repeat;  /* za tocno jednu sliku */
+    background-position: 2.5% center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+ }
+   
+a:hover {
+    text-decoration: underline;
+    color: red;
+    text-transform: uppercase;  /*za transformaciju charova u uppercase prilikom hovera misa*/ 
+   }
